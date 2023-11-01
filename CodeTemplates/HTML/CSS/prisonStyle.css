@@ -1,0 +1,21 @@
+.largeTitle 
+{
+  color: white;
+  font-family: 'Bentham', serif;
+font-family: 'Jost', sans-serif;
+
+}
+.par
+{
+    color: black;
+    font-family: 'Bentham', serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Jost', sans-serif;
+}
+body
+{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}

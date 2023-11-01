@@ -9,12 +9,12 @@ font-size: 50px;
 }
 #alltitles
 {
-    margin-top: 50vh;
+    margin-top: 20vh;
     font-family: 'Jost', sans-serif;
     line-height: 0.8;
 }
 
-#mainsections
+body
 {
     margin-left: 30vw;
     margin-right: 30vw;
