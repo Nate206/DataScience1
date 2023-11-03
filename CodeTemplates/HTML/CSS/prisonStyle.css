@@ -1,5 +1,10 @@
+body{
+  background-color: rgb(176, 7, 7);
+}
+
 .largeTitle 
 {
+  text-align: center;
   color: white;
   font-family: 'Bentham', serif;
 font-family: 'Jost', sans-serif;
@@ -18,4 +23,17 @@ body
     margin-right: 30vw;
     margin-top: 20vh;
     margin-bottom: 20vh;
+}
+@media only screen and{max: width 380px; ;
+  .largeTitle {
+    margin-left: 30vw;
+    margin-right: 30vw;
+    
+  }
+  .par{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+  } 
+
 }
