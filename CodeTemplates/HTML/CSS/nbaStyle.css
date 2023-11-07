@@ -1,0 +1,17 @@
+#landing{
+    display: flex;
+}
+#left{
+    width: 40vw;
+}
+body
+#right{
+    width: 60vw;
+}
+img{
+    width: 100%;
+}
+.title{
+    padding-left:30vw ;
+    padding-right:30vw;
+}
