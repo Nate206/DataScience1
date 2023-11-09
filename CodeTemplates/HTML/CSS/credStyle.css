@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.video-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 98%;
+    height: 90%;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+.titlefont{
+    font-family: 'Bentham', serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Merriweather', serif;
+}
+.par{
+   color: orange;
+}
