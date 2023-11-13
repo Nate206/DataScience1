@@ -1,11 +1,21 @@
 document.addEventListener("scroll", function() {
-    var image1 = "greetings from mars.jpeg"; // First image file path
-    var image2 = "hello world.jpeg"; // Second image file path
-    var pic = document.getElementById('images'); // Get the image element by its ID
+    var image1 = 'greetings from mars.jpeg'; 
+    var image2 = 'hello world.jpeg';
+    var image3 = 'gale crater.jpeg';
+    var image4 = 'cool glasses.jpeg'
+    var pic = document.getElementById('picture'); 
+    var scrollPos = window.scrollY
 
-    if (window.scrollY > 1000) { // Change image when the user has scrolled 200 pixels down
-        pic.src = image1; // Set the source to the first image
-    } else {
-        pic.src = image2; // Set the source to the second image
+    if (scrollY < 1000) { 
+        pic.src = image1; 
+    } 
+    else if (scrollY > 1000 && scrollY <= 2000){
+        pic.src = 'hello world.jpeg';
     }
+    else if (scrollY >2000 && scrollY <=4000){
+        pic.src = 'gale crater.jpeg';
+    }
+    else if (scrollY > 400)
+    pic.src = 'cool glasses.jpeg';
+
 });
