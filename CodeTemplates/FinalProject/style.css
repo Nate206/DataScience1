@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #001f3f; /* Dark blue color */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#dynamicTitle {
+    font-family: 'Courier New', Courier, monospace; /* Add a semicolon here */
+    font-size: 4em;
+    font-weight: bold;
+}
+#changingText {
+    font-family: 'Courier New', Courier, monospace; /* Add a semicolon here */
+    font-size: 4em;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally with auto margins */
+    padding: 50px;
+}
+
+#title,
+#intro {
+    text-align: center;
+    padding: 50px; /* Adjusted padding value */
+}
+
+
+#space {
+    margin-bottom: 20px; /* Adjusted margin-bottom */
+}
+
+.container {
+    height: auto; /* Set container height to auto */
+}
+
+.largetext {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(158, 158, 243);
+}
+.largeText {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(158, 158, 243);
+}
+.datatext {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(158, 158, 243);
+}
+.narrativetext {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(158, 158, 243);
+}
+.viztext {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(158, 158, 243);
+}
+#p1 {
+    /* Styles for the first paragraph */
+    margin-bottom: 300px; /* Adjust the value as needed */
+    margin-top: 30px; /* Adjusted margin-top */
+    opacity: 0; /* Set initial opacity to 1 */
+    transition: opacity 1s ease;
+}
+
+#p2 {
+    /* Styles for the second paragraph */
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-top: 30px; /* Adjusted margin-top */
+    opacity: 1; /* Set initial opacity to 1 */
+    transition: opacity 1s ease-in-out;
+}
+#p3 {
+    /* Styles for the first paragraph */
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+#p4 {
+    /* Styles for the second paragraph */
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+#p5 {
+    /* Styles for the first paragraph */
+    margin-bottom: 100px; /* Adjust the value as needed */
+}
+
+#p6 {
+    /* Styles for the second paragraph */
+    margin-bottom: 100px; /* Adjust the value as needed */
+}
